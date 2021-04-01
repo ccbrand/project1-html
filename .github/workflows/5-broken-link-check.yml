@@ -1,10 +1,10 @@
-name: Broken link check
+name: Broken Link Check
 on: push
 jobs:
-  broken-link-check:
+  check-broken-link:
     runs-on: ubuntu-latest
-    name: Check for broken links
     steps:
+    - uses: actions/checkout@v2
     - name: Check for broken links
       id: link-report
       uses: celinekurpershoek/link-checker@v1.0.1
