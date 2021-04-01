@@ -13,3 +13,5 @@ jobs:
 ---
 
 Run script to check if repo contains at least the files: albums.html, concerts.html, contact.html, home.html
+
+Something like that:https://github.com/jackton1/get-changed-files/blob/master/action.yml

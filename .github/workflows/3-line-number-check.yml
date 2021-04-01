@@ -6,7 +6,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - name: Count line number
-      uses: 
+      uses: https://github.com/AlDanial/cloc
       with:
         root: ./
 
